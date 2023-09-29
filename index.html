@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Github</title>
+      <link rel="stylesheet" href="style.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+         integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+   </head>
+   <body>
+      <!-- Üst kısım -->
+      <header class="navbar navbar-dark bg-dark mb-2">
+         <!-- Üst Kısım -->
+         <div class="container">
+            <a href="/" class="navbar-brand">Github Bulucu</a>
+            <button class="btn btn-light" id="theme-btn">Koyu Mod</button>
+         </div>
+      </header>
+
+      <!-- Form Alanı -->
+      <div class="container">
+         <!-- ! Uyarılar js den buraya gönderilecek... -->
+         <div id="alert">
+            <!-- <div class="alert alert-danger"></div> -->
+         </div>
+
+         <div class="border p-3">
+            <h1>Github Kullanıcı Adını Ara</h1>
+            <p>
+               Kullanıcı bilgilerine erişmek için bir kullanıcı adını giriniz...
+            </p>
+
+            <div class="d-flex gap-3">
+               <input id="search-input" class="form-control" type="text" />
+               <button id="search-btn" class="btn btn-primary btn-lg">
+                  Ara
+               </button>
+            </div>
+         </div>
+      </div>
+
+      <!-- Kullanıcı Bilgileri Alanı -->
+      <div class="container" id="profile"></div>
+
+      <!-- Repolar Alanı -->
+      <div class="container p-3" id="repos">
+         <!-- REPO -->
+
+         <!-- REPO -->
+      </div>
+      <!-- script -->
+      <script src="app.js" type="module"></script>
+   </body>
+</html>
