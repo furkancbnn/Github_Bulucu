@@ -1,5 +1,5 @@
 # Github Bulucu
-#[](githubBulucu.gif)
+[](githubBulucu.gif)
 
 Github kullanıcılarını arayarak kullanıcı profillerini ve repolarını görüntüleyen basit bir web uygulamasıdır.
 
